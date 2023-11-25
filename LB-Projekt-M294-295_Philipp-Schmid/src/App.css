@@ -1,0 +1,96 @@
+body {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  width: 80vw; 
+  padding: 20px;
+}
+
+h1 {
+  background-color: #ccc;
+  padding: 20px;
+  margin: 0;
+}
+
+.title-and-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.add-module {
+  flex-basis: 25%;
+  position: sticky;
+  top: 0px;
+}
+
+.city-list {
+  flex-basis: 70%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: lightgray;
+  border-radius: 8px;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+li button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #cc0000;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 60%;
+  align-self: self-end;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkgreen;
+}
